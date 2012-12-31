@@ -45,6 +45,13 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
         <a href="http://docs.scala-lang.org/overviews/collections/concrete-mutable-collection-classes.html#concurrent_maps">Scala API Docs</a></li>
         <li>Read the <a href="http://twitter.github.com/effectivescala/#Collections">Collections</a> section of Effective Scala for more info</li>
     </ul>
-
+    <h4>Object Oriented Programming</h4>
+    <p>Adhere to the regular principles; separation of concerns and the single responsibility principle are easy to achieve using traits
+    and mixins. Use case classes for value types (operation input / output values), even if the input is a single argument. This makes your 
+    code more structured and resilient to future changes.</p>
+    <h4>Dependency Injection</h4>
+    <p>Use plain constructor injection; avoid cake pattern as it makes unit testing difficult. Prefer composition over inheritance.
+    Use cake pattern in wiring code (Spring configuration classes); each configuration class should declare its dependencies as abstract
+    methods.</p>
   </body>
 </html>
