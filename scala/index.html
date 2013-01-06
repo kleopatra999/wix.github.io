@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
@@ -37,7 +36,7 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
     <p>Don't use the <em>scala.xml</em> package; first of all, do you really neex XML support? if all you need is serialization, consider using JSON. If you <strong>really</strong> need XML, use JAXB.</p>
     <h4>JSON</h4>
     <p>Use Jackson with the <a href="https://github.com/FasterXML/jackson-module-scala">Scala Module</a>. It should allow you to fully serialize and deserialize Case Classes, Monads, Scala collections, etc.</p>
-    <h4>Collections<h4>
+    <h4>Collections</h4>
     <ul>
         <li>Always prefer immutable collections; if you think you need a mutable collection, ask yourself why, then consult a colleague</li>
         <li>For ordered sequences (where you would've used <em>java.util.List</em>, use Seq)</li>
@@ -64,5 +63,7 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
     methods.</p>
     <h4>Learning</h4>
     <p>The Scala REPL is a powerful tool. Learn how to use it.</p>
+    </section>
+    </div>
   </body>
 </html>
