@@ -40,7 +40,7 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
     <h4>Collections<h4>
     <ul>
         <li>Always prefer immutable collections; if you think you need a mutable collection, ask yourself why, then consult a colleague</li>
-        <li>For ordered sequences (where you would've used <em>java.util.List</em>, use Seq</li>
+        <li>For ordered sequences (where you would've used <em>java.util.List</em>, use Seq)</li>
         <li>For ConcurrentMaps, see the appropriate page at Twitter's <a href="http://twitter.github.com/scala_school/concurrency.html#solutions">Concurrency</a> lesson and the
         <a href="http://docs.scala-lang.org/overviews/collections/concrete-mutable-collection-classes.html#concurrent_maps">Scala API Docs</a></li>
         <li>Read the <a href="http://twitter.github.com/effectivescala/#Collections">Collections</a> section of Effective Scala for more info</li>
@@ -49,9 +49,20 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
     <p>Adhere to the regular principles; separation of concerns and the single responsibility principle are easy to achieve using traits
     and mixins. Use case classes for value types (operation input / output values), even if the input is a single argument. This makes your 
     code more structured and resilient to future changes.</p>
+    <h4>Enums</h4>
+    <p>Don't extend Scala's Enumeration type. Instead, created a sealed trait as your enum type and extend it with case objects:
+        <pre>
+            sealed trait Animal
+            case object Cat extends Animal
+            case object Dog extends Animal
+            case object Goat extends Animal
+        </pre>
+    </p>
     <h4>Dependency Injection</h4>
     <p>Use plain constructor injection; avoid cake pattern as it makes unit testing difficult. Prefer composition over inheritance.
     Use cake pattern in wiring code (Spring configuration classes); each configuration class should declare its dependencies as abstract
     methods.</p>
+    <h4>Learning</h4>
+    <p>The Scala REPL is a powerful tool. Learn how to use it.</p>
   </body>
 </html>
