@@ -55,7 +55,14 @@ with it or we have something to add. <strong>This is a mandatory read</strong> b
             case object Cat extends Animal
             case object Dog extends Animal
             case object Goat extends Animal
+            
+            def makeSound(animal: Animal) = animal match {
+              case Cat => "meow"
+              case Dog => "woof"
+              case Goat => "baaah"
+            }
         </pre>
+    Making the trait <em>sealed</em> will cause compilation to break if you neglect to match on an Animal type, or if you add a type in the future.
     </p>
     <h4>Dependency Injection</h4>
     <p>Use plain constructor injection; avoid cake pattern as it makes unit testing difficult. Prefer composition over inheritance.
