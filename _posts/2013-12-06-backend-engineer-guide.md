@@ -8,7 +8,7 @@ category: Backend Engineer Guide
 
 ### A training guide for new backend engineers
 
-Welcome to the Wix Backend Engineering Group! (Haven't joined us yes? Check out our [jobs page](http://www.wix.com/jobs/main) and apply.) This training guide should help you get settled-in during your first couple of weeks. It serves as a training program, resource guide, and must-know check-list.
+Welcome to the Wix Backend Engineering Group! (Haven't joined us yet? Check out our [jobs page](http://www.wix.com/jobs/main) and apply.) This training guide should help you get settled-in during your first couple of weeks. It serves as a training program, resource guide, and must-know check-list.
 
 This list is quite comprehensive and could be a bit intimidating. Don't worry – you don't have to know all of this on your first day. It summarizes the list of technologies we use, the tools we have in place, crucial parts of our system, and the Wix product.
 
@@ -31,7 +31,7 @@ Welcome and good luck.
 * Garbage Collection & The Memory Model
 * IntelliJ
 * Tools
-    * [Heap dump](/backend-engineer-guide/heap-dump) (`jmap`, `jvisualvm`)
+    * [Heap dump](/backend-engineer-guide/heap-dump)
     * Profiling
 * JVM Arguments (memory, GC, etc.)
 * Libraries/applications/frameworks
