@@ -81,15 +81,28 @@ Welcome and good luck.
     * [Specs2](http://etorreborre.github.io/specs2/)
     * [Mockito](https://code.google.com/p/mockito/)
     * [Hamcrest](http://hamcrest.org/)
+    * [jMock](http://jmock.org/)
+* Our testing frameworks and utilities
 
 
 
+## Software Engineering
 
-## DevOps
+* Solid Principles
+* Refactoring Technique
+* Reactive and Asynchronous Programming
+* CAP Theorem
+* Design Patterns
+* Numbers every developer should know
+* Big Oh
+
+
+
+## DevOps and Production
 
 * UNIX/Linux
     * bash/zsh scripting
-* OS X/Ubuntu (we don't use Windows)
+* OS X/Ubuntu (we don't use Windows) common tools/utils/workflows
 * [Maven](/backend-engineer-guide/maven)
 * [Git](/backend-engineer-guide/git)
 * MySQL
@@ -99,6 +112,8 @@ Welcome and good luck.
 * Staging Machines
 * SSH
 * BackOffice
+* How our projects are deployed from a new project to production
+* Production debugging
 
 ### Continuous Delivery
 
@@ -111,7 +126,7 @@ Welcome and good luck.
 * TeamCity (ci, release)
 * Captain's Log
 
-### Server Infrastructure
+### Operations
 
 * Dude, Where's My Shlomo?
 * Fryingpan
@@ -153,9 +168,12 @@ Welcome and good luck.
     * Basic Html structure (head, body, script, the DOM, etc.)
     * Javascript
     * REST
+    * Ajax
+    * Rest vs Ajax
 * sitemap.xml
 * robots.txt
 * SEO
+* CDN
 * How the Internet works (seriously: DNS, IPs, routers, latencies, etc.)
 
 
@@ -177,3 +195,11 @@ Welcome and good luck.
 * Authentication
 * Mobile
 * (Flash sites...)
+
+
+## Dev-Centric Culture (What we expect from you)
+
+* Tests are the best example
+* The code is the documentation
+* Code ownership doesn't block development
+* You are responsible for your own code (also ops-wise), we have no QA
