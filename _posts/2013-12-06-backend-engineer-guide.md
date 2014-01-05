@@ -100,6 +100,7 @@ Welcome and good luck.
 
 ## DevOps and Production
 
+* [Three reasons your startup will suffer without DevOps](http://readwrite.com/2014/01/01/three-reasons-your-startup-needs-devops-or-else)
 * UNIX/Linux
     * bash/zsh scripting
 * OS X/Ubuntu (we don't use Windows) common tools/utils/workflows
