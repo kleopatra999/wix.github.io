@@ -89,7 +89,7 @@ Welcome and good luck.
 ## Software Engineering
 
 * Solid Principles
-* Refactoring Technique
+* Refactoring Technique ([Workflows Of Refactoring](http://martinfowler.com/articles/workflowsOfRefactoring/))
 * Reactive and Asynchronous Programming
 * CAP Theorem
 * Design Patterns
