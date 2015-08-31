@@ -17,7 +17,7 @@ Twitter's Effective Scala document provides best practice guidelines that we agr
 
 ### XML
 
-Don't use the scala.xml package; first of all, do you really neex XML support? if all you need is serialization, consider using JSON. If you really need XML, use JAXB.
+Don't use the scala.xml package; first of all, do you really need XML support? if all you need is serialization, consider using JSON. If you really need XML, use JAXB.
 
 ### JSON
 
