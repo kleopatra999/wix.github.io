@@ -129,7 +129,6 @@ Welcome and good luck.
 
 ### Operations
 
-* Dude, Where's My Shlomo?
 * Fryingpan
 * Data Centers
 * Dispatchers
