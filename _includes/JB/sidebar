@@ -1,0 +1,22 @@
+{% include JB/setup %}
+<h3 class="title">Categories</h3>
+<ul class="tag-box">
+{% assign tags_list = site.categories %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <li class="tag">
+        <a href="/categories/{{ tag }}/#{{ tag }}-ref">
+            {{ tag | capitalize }}
+            <span class="count">
+                {{ site.tags[tag].size }}
+            </span>
+            </a>
+        </li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <li class="tag"><a href="/categories/{{ tag[0] }}/#{{tag[0]}}-ref">{{ tag[0] | capitalize }} <span class="count">{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>

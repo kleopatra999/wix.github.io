@@ -1,0 +1,55 @@
+/* typography */
+p {
+    font-family: "HelveticaNeueThin", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeueThin", sans-serif;
+}
+
+
+@font-face {
+	font-family: 'HelveticaNeueUltraLight';
+	font-style: normal;
+	src: url('../fonts/25-helvetica-neue-ultra-lite.ttf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueThin';
+	font-style: normal;
+	src: url('../fonts/35-helvetica-neue-thin.ttf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLight';
+	font-style: normal;
+	src: url('../fonts/45-helvetica-neue-lite.ttf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueRoman';
+	font-style: normal;
+	src: url('../fonts/55-helvetica-neue-roman.ttf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueMedium';
+	font-style: normal;
+	src: url('../fonts/65-helvetica-neue-medium.ttf');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueBold';
+	font-style: normal;
+	src: url('../fonts/75-helvetica-neue-bold.ttf');
+}
+
+
+@font-face {
+	font-family: 'HelveticaNeueBlack';
+	font-style: normal;
+	src: url('../fonts/95-helvetica-neue-black.ttf');
+}
