@@ -1,0 +1,19 @@
+PORT: 4000
+
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+
+PATHS:
+  # Paths to static assets that aren't images, CSS, or JavaScript
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+    - "!src/assets/fonts/{eot,woff,otf,ttf}/**/*"
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    - "bower_components/foundation-sites/scss"
+    - "bower_components/motion-ui/src"
+  # Paths to JavaScript libraries, which are compined into one file
+  javascript:
+#    - "src/assets/js/app.js"

@@ -1,0 +1,61 @@
+/* menu-toggle */
+.spread-items, .collapse-items {
+    color: #fff;
+    display: none;
+}
+@media only screen and (max-width: 40em) {
+    .collapse-items {
+        display: block !important;
+    }
+    li.acronym {
+        display: block;
+    }
+    li.caption {
+        display: none !important;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) {
+    .spread-items {
+        display: block !important;
+    }
+} /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .acronym {
+        display: none !important;
+    }
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) {
+} /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    .acronym {
+        display: none !important;
+    }
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+.collapse-items .menu-toggle {
+    margin: 0 4.4rem 0;
+    font-family: "HelveticaNeueBlack", sans-serif;
+    border: 0.15rem solid #fff;
+    padding: 0.5rem;
+    outline: 0;
+}
+.collapse-items .menu {
+    display: block;
+}
+.collapse-items .menu {
+    margin: 0;
+    padding: 0;
+}
+.collapse-items .menu li {
+    display: block !important;
+}
+.collapse-items .menu li a {
+    display: block;
+    padding: 0.5rem 4.4rem;
+    border-bottom: none;
+}
+.collapse-items .menu li a {
+    display: block;
+}
+[data-state="collapse"] ~ .menu {
+    display: none;
+}

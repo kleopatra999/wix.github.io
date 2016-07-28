@@ -1,0 +1,24 @@
+/* nav */
+.nav .menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem 0;
+    list-style: none;
+}
+.nav .menu .flex-item {
+    order: 1;
+    flex-grow: 1;
+}
+.nav .menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 0.25rem;
+}
+.nav .menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "HelveticaNeueLight", sans-serif;
+}
+.nav .menu li a:hover {
+    color: #AB8ACA;
+}

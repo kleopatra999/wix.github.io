@@ -1,0 +1,23 @@
+.site-header {
+    background: url(../images/h-stripe.png) no-repeat 110% 50%;
+}
+.site-header .inner {
+    background: url(../images/bg.jpg) fixed;
+}
+
+/* brand */
+.brand {
+    background: url(../images/h-stripe.png) no-repeat center right;
+}
+.brand .logo {
+    margin: 4rem;
+    background: url(../images/wix-engineering-logo.png) no-repeat top left;
+    display: inline-block;
+    height: 40px;
+    width: 17.85rem;
+    text-indent: -100rem;
+}
+.extra-stripe {
+    background: url(../images/h-stripe.png) no-repeat center right;
+    display: block;
+}
